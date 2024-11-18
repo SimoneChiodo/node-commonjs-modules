@@ -1,3 +1,5 @@
-const { createObject } = require("./names.js");
+const { createNames } = require("./names.js");
+console.log(createNames("Nome", "Cognome"));
 
-console.log(createObject("Nome", "Cognome"));
+const { createHobbies } = require("./hobbies.js");
+console.log(createHobbies("Hobby1", "Hobby2", "Hobby3"));
